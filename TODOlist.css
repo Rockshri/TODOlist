@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 33px;
+  }
+  .container {
+    background-color: rgba(109, 70, 198, 0.758);
+    min-height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px black solid;
+    padding: 8px 5px 0px 5px;
+    box-shadow: 2px 3px 4px black;
+  }
+  .container #input {
+    width: 85%;
+    height: 30px;
+    border-radius: 8px;
+    padding: 9px;
+    font-size: 20px;
+  }
+  .container #button {
+    width: 12%;
+    height: 25px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    border: none;
+    outline: 2px white solid;
+  }
+  .container #todo {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .container > {
+    font-size: 15px;
+  }
